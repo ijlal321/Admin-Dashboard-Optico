@@ -1,0 +1,5 @@
+[
+    { "displayName": "Color", "type": "text", "multi": true, "options": ["red", "blue", "green"] },
+    { "displayName": "Stock", "type": "number", "multi": false, "options": [1, 2, 3, 4] },
+    { "displayName": "Location", "type": "text", "multi": false, "options": ["Display", "Tray", "Warehouse"] }
+]

@@ -1,0 +1,13 @@
+{
+    "brand": { "displayName": "Brand", "type": "text", "multi": false, "options": ["a", "b", "c", "d", "e"] },
+    "shape": { "displayName": "Shape", "type": "text", "multi": true, "options": ["a", "b", "c", "d", "e"] },
+    "material": { "displayName": "Material", "type": "text", "multi": true, "options": ["a", "b", "c", "d", "e"] },
+    "sex": { "displayName": "Sex", "type": "text", "multi": true, "options": ["Male", "Female", "Kids"] },
+    "tags": { "displayName": "Other Tags", "type": "text", "multi": true, "options": ["a", "b", "c", "d", "e"] },
+    "price": { "displayName": "Price", "type": "number", "multi": false, "options": [1000, 2000, 3000] },
+    "discount": { "displayName": "Discount", "type": "number", "multi": false, "options": [5, 10, 15, 20, 25] },
+    "lens_type": { "displayName": "Lens Type", "type": "text", "multi": true, "options": ["Polarized", "Double Shade", "Tinted"] },
+    "lens_material": { "displayName": "Lens Material", "type": "text", "multi": false, "options": ["Plastic", "Glass"] },
+    "prescription_possible": { "displayName": "Prescription Lens possible ?", "type": "text", "multi": false, "options": ["Yes", "No"] },
+    "copy_type": { "displayName": "Quality", "type": "text", "multi": false, "options": ["Original","A+", "A", "High Copy"]}
+}

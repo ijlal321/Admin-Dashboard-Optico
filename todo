@@ -1,0 +1,8 @@
+expiry for contact lens
+ManagePresccriptions.jsx => re odering has issues on useeffect 
+
+on deleting shipment, what to do about data of btches in prescription and contact ?
+
+when new frame, reset all attributes, donot say refersh
+
+on new order, give option to select no prescription
