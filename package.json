@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@napi-rs/canvas": "^0.1.68",
     "@popperjs/core": "^2.11.8",
     "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-select": "^2.1.4",
@@ -18,6 +17,7 @@
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "browser-image-compression": "^2.0.2",
+    "canvas": "^3.1.0",
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.5.1",
     "clsx": "^2.1.1",
