@@ -14,12 +14,12 @@ function AddNewPrescrtiption({ customer, setCustomer , setStatus}) {
         left_sph: '',
         left_cyl: '',
         left_axis: '',
-        left_vision: '',
+        left_vision: '6/6',
         right_sph: '',
         right_cyl: '',
         right_axis: '',
-        right_vision: '',
-        addition: '',
+        right_vision: '6/6',
+        addition: '+0.00',
         ipd: ''
     });
 
