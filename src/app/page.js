@@ -68,6 +68,10 @@ const AdminNavigationData = [
     destination: "/manage-customers"
   },
   {
+    title: 'Complaints',
+    destination: "/complaints"
+  },
+  {
     title: 'Shipments',
     destination: "/manage-shipments"
   },
