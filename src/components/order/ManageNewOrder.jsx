@@ -78,7 +78,7 @@ function ManageNewOrder() {
     return (
         <div className="container mt-3">
             {/* load customer -> it would load customer from db or create new, by any method -> it would bring us a customer we can show and edit etc*/}
-            {!customer ? <LoadCustomer setCustomer={setCustomer} />
+            {!customer ? <LoadCustomer setCustomer={setCustomer} setStatus={setStatus} />
                 : <>
 
                     <EditCustomer customer={customer} setCustomer={setCustomer} setStatus={setStatus} isEditAble={false} />
