@@ -159,7 +159,7 @@ function InventoryCard({ batch, batchInfo, handleUpdateBatch, handleDeleteBatch,
                                 </tr>
                             </thead>
                             <tbody>
-                                {stock.map((item, stockIdx) => (
+                                {stock && stock.map((item, stockIdx) => (
                                     <tr key={stockIdx}>
                                         <td>{item.power}</td>
                                         <td>{item.quantity}</td>

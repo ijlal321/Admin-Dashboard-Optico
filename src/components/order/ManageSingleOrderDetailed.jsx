@@ -37,16 +37,17 @@ function ManageSingleOrderDetailed({ orderId }) {
             try {
                 setStatus({ status: 'loading', description: 'Fetching customer details' });
                 const response = await fetch(`/api/customer/${order.customerId}`);
+                console.log(response);
                 const data = await response.json();
                 if (!data.success) {
-                    throw new Error(data.message);
+                    throw new Error(data.error);
                 }
                 setCustomer(data.data);
                 setStatus({ status: 'successful', description: 'Details fetched successfully' });
                 setPrescription(data.data.prescriptions.find(prescription => prescription.id == order.prescriptionId));
             } catch (error) {
                 console.log(error);
-                setStatus({ status: 'error', description: error });
+                setStatus({ status: 'error', description: error.message });
             }
         }
         if (order && order.customerId) {

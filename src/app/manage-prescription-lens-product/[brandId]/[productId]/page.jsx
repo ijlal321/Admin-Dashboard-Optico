@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';  // Correct import from next/naviga
 import ManagePrescriptionLensProduct from '@/components/prescriptionsLens/ManagePrescriptionLensProduct';
 import CenterTitle from '@/components/CenterTitle';  // Assuming you have this component
 
-const Page = () => {
+const page = () => {
     const params = useParams(); 
 
     const {brandId, productId} = params;

@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';  // Correct import from next/naviga
 import CenterTitle from '@/components/CenterTitle';  // Assuming you have this component
 import ManageColors from '@/components/contactLens/colors/ManageColors';
 
-const Page = () => {
+const page = () => {
     const params = useParams(); 
 
     const {brandId, colorId} = params;
